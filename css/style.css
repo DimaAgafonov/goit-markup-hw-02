@@ -1,6 +1,6 @@
 :root {
-  --main-font-family: 'Roboto', sans-serif;
-  --second-font-family: 'Raleway', sans-serif;
+  --main-font-family: "Roboto", sans-serif;
+  --second-font-family: "Raleway", sans-serif;
   --main-txt-color: #212121;
   --grey-txt-color: #757575;
   --white-txt-color: #ffffff;
@@ -16,10 +16,14 @@ button {
   font-family: inherit;
 }
 /*  COMPONENTS  */
-.active {
+.navigation-list-item-link.active {
   color: var(--hover-color);
 }
-/* = HEADER = */
+a {
+  text-decoration: none;
+}
+
+/*   HEADER  */
 .logo-link {
   font-family: var(--second-font-family);
   font-style: normal;
@@ -43,6 +47,10 @@ button {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
+}
+
+.navigation-list-item-link {
+  color: var(--main-txt-color);
 }
 
 .email,
